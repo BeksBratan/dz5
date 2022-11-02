@@ -1,0 +1,57 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+.restaurant {
+  display: flex;
+  align-items: center;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  padding: 5px;
+  border-radius: 6px;
+  border: 1px solid;
+}
+.cart ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid;
+}
+.cart ul li {
+  margin: 10px 0 10px;
+}
+.menu {
+  width: max-content;
+  list-style: none;
+  text-align: left;
+  margin-right: 10px;
+}
+.food {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-radius: 6px;
+  border: 1px solid;
+  margin-bottom: 10px;
+}
+.menu_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  border-radius: 8px;
+  transform: translate(-50%, -50%);
+}
